@@ -10,4 +10,15 @@ I followed this tutorial here: http://eshepelyuk.github.io/2014/11/06/advanced-j
 
 I was able to get Jekyll to render Asciidoc.
 
-NOTE: This is a note.
+== This is a header
+
+This is a sample page composed in AsciiDoc.
+Jekyll converts it to HTML using http://asciidoctor.org[Asciidoctor].
+
+CAUTION: very important tip
+
+[source,ruby]
+.sample.rb
+----
+puts "Hello, World!"
+----
