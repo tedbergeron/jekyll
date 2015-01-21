@@ -3,6 +3,19 @@ markdown: redcarpet
 # highlighter: pygments
 highlighter: coderay
 
+asciidoc_ext: asciidoc,adoc,ad,txt
+
+asciidoctor:
+  attributes:
+    - icons=font
+    - source-highlighter=coderay
+    - coderay-css=style
+
+
+# Gems
+gems:
+  - jekyll-asciidoc
+
 # Site settings
 title: "ted.bergeron"
 description: > # this means to ignore newlines until "email:"
@@ -20,7 +33,7 @@ author_image: "/assets/images/author.jpg"
 
 paginate:	5
 
-url: "http://myblog.***.***" # the base hostname & protocol for your site
+url: "http://tedbergeron.github.io" # the base hostname & protocol for your site
 baseurl: ""
 
 # social icons and sharing options

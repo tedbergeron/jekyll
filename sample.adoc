@@ -1,0 +1,17 @@
+---
+---
+:layout: page
+= Sample Page
+
+== This is a header
+
+This is a sample page composed in AsciiDoc.
+Jekyll converts it to HTML using http://asciidoctor.org[Asciidoctor].
+
+CAUTION: very important tip
+
+[source,ruby]
+.sample.rb
+----
+puts "Hello, World!"
+----
