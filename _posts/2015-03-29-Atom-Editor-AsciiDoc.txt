@@ -10,11 +10,11 @@ comments: true
 
 I've used Markdown for years but last year I heard about AsciiDoc at link:http://www.writethedocs.org/[Write The Docs] 2014 conference. Then I quickly discovered link:http://asciidoctor.org/[Asciidoctor] and I've never looked back.
 
-AsciiDoc is a superset of Markdown and since Asciidoctor renders Markdown too so it was easy for me to just start using AsciiDoc.
+AsciiDoc is a superset of Markdown and since Asciidoctor renders Markdown too,  it was easy for me to just start using AsciiDoc.
 
 == Fast Start with AsciiDoc
 
-The fastest way to start is get the link:https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en-US[Asciidoctor.js Live Preview] extension for Chrome.
+I think the fastest way to get started is to install the link:https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en-US[Asciidoctor.js Live Preview] extension for Chrome.
 
 Set the options for it
 
@@ -24,7 +24,7 @@ Set the options for it
 
 Click save.
 
-Open your favorite text editor and start formatting in AsciiDoc. Here's some links to get you started with the syntax:
+Open your favorite text editor and start writng. Format your doc with AsciiDoc. Here's some links to get you started with the syntax:
 
 * icon:star[role=yellow] http://powerman.name/doc/asciidoc[AsciiDoc cheatsheet]
 * icon:star[role=yellow] http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[Asciidoctor Syntax Quick Reference]
@@ -32,9 +32,9 @@ Open your favorite text editor and start formatting in AsciiDoc. Here's some lin
 
 Open your text file in Chrome to start previewing it. *Have your text editor open right next to Chrome* so you have a side-by-side editor|viewer. Each time you save you'll see your changes rendered in Chrome.
 
-TIP: *Pro Tip:* Bookmark your AsciiDoc text file link all your other docs to it creating a simple wiki or intranet site on your computer or network; powered by this browser extension and a text editor.
+TIP: *Pro Tip:* Bookmark your AsciiDoc text file. Then write links to all your other docs creating a simple wiki or intranet site on your computer; powered by this browser extension and a text editor.
 
-link:https://addons.mozilla.org/en-us/firefox/addon/asciidoctorjs-live-preview/?src=search[Asciidoctor.js Live Preview] is also available for Firefox but it is not as mature as the Chrome version at the time of this writing. But I'm sure it will catch up quickly.
+link:https://addons.mozilla.org/en-us/firefox/addon/asciidoctorjs-live-preview/?src=search[Asciidoctor.js Live Preview] is also available for Firefox but it is not as mature as the Chrome version as of the time of this writing. But I'm sure it will catch up quickly.
 
 == Atom Editor icon:github-alt[]
 
@@ -53,11 +53,11 @@ This package gives you beautiful syntax highlighting for AsciiDoc files. It auto
 
 TIP: *Using .txt* First your spell checker is going to work. Secondly I think it is an advantage to use .txt files in the repository so after I'm long gone, anyone can still open the files and work with them; even if they've never heard of AsciiDoc formatting. Although it would be a simple command to change file extentions from .adoc back to .txt.
 
-Experiment with different Atom themes to change the syntax colors to one that works best for you.
+Experiment with different Atom themes to find syntax colors that work best for you.
 
 === asciidoc-preview for live previewing
 
-The asciidoc-preview package gives you the perfect side-by-side editor | viewer for working with your text files.
+The asciidoc-preview package gives you the perfect side-by-side editor|viewer for working with your text files.
 
 .Toggle Preview (Ctrl+Shift+A)
 To toggle the preview window use Packages > AsciiDoc > Toggle Preview (Ctrl+Shift+A)
