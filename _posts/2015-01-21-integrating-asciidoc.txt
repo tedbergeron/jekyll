@@ -2,7 +2,7 @@
 layout: post
 title: "Successfully Integrating Asciidoctor"
 excerpt: "After this tutorial, I got Asciidoctor working"
-tags: [featured, AsciiDoc, Asciidoctor]
+tags: [AsciiDoc, Asciidoctor]
 comments: true
 ---
 

@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Local AsciiDoc Website"
+excerpt: "Use ..."
+tags: [featured, AsciiDoc, Asciidoctor]
+comments: true
+---
+
+= Local AsciiDoc Website
+
+In my link:http://tedbergeron.github.io/2015/03/29/Atom-Editor-AsciiDoc.html[last post] I made a "Pro Tip" recommendation to use the link:https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en-US[Asciidoctor.js Live Preview] extension for Chrome to make a local website or wiki-like site.
+
+Start by cloning this repo  link:https://github.com/tedbergeron/Asciidoctor-LivePreview-Website[Asciidoctor-LivePreview-Website]
+
+Install the Asciidoctor.js Live Preview.
+
+Set the options for it
+
+* Safe mode: _unsafe_
+* Preview .txt files: icon:check[role=black] _(so you can use these .txt files in addition to .adoc files)_
+* Theme / Stylesheet: _(pick one)_
+
+Click save.
+
+TIP: *Pro Tip:* Bookmark your AsciiDoc text file. Then write links to all your other docs creating a simple wiki or intranet site on your computer; powered by this browser extension and a text editor.
+
+link:https://addons.mozilla.org/en-us/firefox/addon/asciidoctorjs-live-preview/?src=search[Asciidoctor.js Live Preview] is also available for Firefox but it is not as mature as the Chrome version as of the time of this writing. But I'm sure it will catch up quickly.
