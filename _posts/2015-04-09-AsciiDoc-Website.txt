@@ -6,20 +6,18 @@ tags: [featured, AsciiDoc, Asciidoctor]
 comments: true
 ---
 
-= Local AsciiDoc Website
-
 In my link:http://tedbergeron.github.io/2015/03/29/Atom-Editor-AsciiDoc.html[last post] I briefly mentioned how you could make a local website out of your docs using only
 
 * A text editor, like Notepad
 * A browser extension in Chrome link:https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en-US[Asciidoctor.js Live Preview]
-* A little bit of AsciiDoc formatting
+* And some AsciiDoc links
 
 I have a lot of documentation that I update and refer to everyday. It is marked up with AsciiDoc. I find the best way to work with it is to organize all my docs and link them together into a mini-website on my laptop.
 
 == Templates to get you started
 To get you started, I've created a few docs and linked them together so you can quickly see how this works.
 
-Start by cloning this repo  link:https://github.com/tedbergeron/Asciidoctor-LivePreview-Website[Asciidoctor-LivePreview-Website]
+Start by cloning this repo:  link:https://github.com/tedbergeron/Asciidoctor-LivePreview-Website[Asciidoctor-LivePreview-Website]
 
 You can just download the .ZIP and place the files together in a directory.
 
@@ -47,20 +45,25 @@ You should see it open and render like a mini-website. Click around and test it 
 
 == Start Editing it.
 
-When you look at the text files you'll notice that the index.txt file has
+When you take look at the text files you'll notice that the index.txt file has
 
 [source, AsciiDoc]
 ----
-include::header.txt[]
+include header.txt[]
 
-include::footer.txt[]
+include footer.txt[]
 ----
 
 You can use those on all your docs to create a navigation menu at the top and a mini-sitemap at the bottom.
 
+Or leave them off and just add a link back to the index.txt page
+
+I usually edit in one window on the left and preview the changes in Chrome on the right.
+
+
 == Linking your docs together
 
-The main AsciiDoc code you'll need to hook your docs together is link. It's pretty straight forward to use
+The main AsciiDoc code you'll need to hook your docs together is link. It's pretty straight forward to use. It looks like this:
 
 [source, AsciiDoc]
 ----
@@ -69,12 +72,10 @@ link:AnotherDocument.txt[Another Document]
 
 == Bookmark your index.txt file
 
-Bookmark your main doc. You might want to name it README.txt. Then write links to all your other docs creating a simple website.
+Don't forget to bookmark your main doc. You might want to name it README.txt. Then write links to all your other docs creating a simple website.
 
 == Not quite a wiki
 
-It is not the same as a wiki but it is so simple to edit. I usually edit in one window on the left and preview the changes in Chrome on the right.
+It is not the same as a wiki but it is so simple to edit you might think it's better than a wiki. Store your files in a repository and you'll even have the history of changes you make.
 
 You could build an intranet site on your network using this concept.
-
-And if you are looking for something better than Notepad to write your docs, try the link:http://tedbergeron.github.io/2015/03/29/Atom-Editor-AsciiDoc.html[Atom Editor for AsciiDoc]
