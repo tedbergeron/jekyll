@@ -34,6 +34,7 @@ Set the options for it
 * Preview .txt files: icon:check[role=black] _(so you can use these .txt files in addition to .adoc files)_
 * Click save.
 
+WARNING: If you are using Firefox change all your file extensions to .adoc because there's no option to use .txt at this time.
 
 == Open the index.txt in your browser
 
@@ -49,12 +50,12 @@ When you take look at the text files you'll notice that the index.txt file has
 
 [source, AsciiDoc]
 ----
-include header.txt[]
+ include::header.txt[]
 
-include footer.txt[]
+ include::footer.txt[]
 ----
 
-You can use those on all your docs to create a navigation menu at the top and a mini-sitemap at the bottom.
+You can use those in all your docs to create a navigation menu at the top and a mini-sitemap at the bottom. You'll find header.txt and footer.txt in the repository. I've used AsciiDoc tables to make the columns.
 
 Or leave them off and just add a link back to the index.txt page
 
@@ -72,7 +73,7 @@ link:AnotherDocument.txt[Another Document]
 
 == Bookmark your index.txt file
 
-Don't forget to bookmark your main doc. You might want to name it README.txt. Then write links to all your other docs creating a simple website.
+Don't forget to bookmark your main doc. If index.txt seems too 'WebDev' like, you might want to name it README.txt. Then write links to all your other docs creating a simple website.
 
 == Not quite a wiki
 
