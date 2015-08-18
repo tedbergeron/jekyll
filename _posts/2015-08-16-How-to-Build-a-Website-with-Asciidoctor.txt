@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Site Made With Asciidoctor"
-excerpt: "Build a website using only Asciidoctor and one command ..."
+title: "How to build a website with Asciidoctor"
+excerpt: "Build a website with one command using only Asciidoctor..."
 tags: [featured, AsciiDoc, Asciidoctor]
 comments: true
 ---
