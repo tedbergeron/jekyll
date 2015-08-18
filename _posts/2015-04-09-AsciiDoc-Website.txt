@@ -2,7 +2,7 @@
 layout: post
 title: "Local AsciiDoc Website"
 excerpt: "Use ..."
-tags: [featured, AsciiDoc, Asciidoctor]
+tags: [AsciiDoc, Asciidoctor]
 comments: true
 ---
 
