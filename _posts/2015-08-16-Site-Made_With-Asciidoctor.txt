@@ -6,12 +6,11 @@ tags: [featured, AsciiDoc, Asciidoctor]
 comments: true
 ---
 
-Take a look at this demo of website I made _only using Asciidoctor_ and with *one command*.
-http://tedbergeron.github.io/SiteMadeWithAsciidoctor/  
+Take a look at this demo of website I made _only using Asciidoctor_ and with *one command*. http://tedbergeron.github.io/SiteMadeWithAsciidoctor/
 
 == How To
-Start by downloading the files in my link:https://github.com/tedbergeron/SiteMadeWithAsciidoctor[GitHub Repo]sitory. 
-Edit the content in the text files marking them up with AsciiDoc. 
+Start by downloading the files in my link:https://github.com/tedbergeron/SiteMadeWithAsciidoctor[GitHub Repo]sitory.
+Edit the content in the text files marking them up with AsciiDoc.
 
 I am using a header and footer that is included on the index and page one AsciiDoc text file.
 
@@ -29,7 +28,8 @@ Or just FTP the .html files that were generated to your own website.
 
 == That's it, you're done.
 
-=== Here's some extra stuff
+Following is some additional information to customize your website.
+
 
 ==== Use Different Asciidoctor Themes
 
@@ -42,9 +42,9 @@ At the command prompt
 If you'd like to use the colony stylesheet use
 
  > asciidoctor -a stylesheet=styles/colony.css  *.txt
- 
 
-NOTE: You can get other themes and preview them here: http://themes.asciidoctor.org/ 
+
+NOTE: You can get other themes and preview them here: http://themes.asciidoctor.org/
 
 
 ==== Smart Links
@@ -61,8 +61,7 @@ both renders as a link
 
 ==== Ignore the Extra Files
 
-This method will render the header.txt and footer.txt into html files too. 
-But since they're not linked to anything, it's fine for them to live along side the others.
+This method will render the header.txt and footer.txt into html files too. But since they're not linked to anything, it's fine for them to live along side the others.
 
 You could get organized and put all the Asciidoc text files into a sub-directory, but I'll leave that to you to figure out the logistics.
 
@@ -71,5 +70,10 @@ My goal was to generate the simplest website using the most minimal command.
 
 ==== Why don't you use .adoc files?
 
-Typically you see AsciiDoc files with an .adoc or .asciidoc file extention. 
-But since they are just text files and since Asciidoctor will try to render any text file you feed it, I choose to use .txt so people can easily edit the files in Notepad.
+Typically you see AsciiDoc files with an .adoc or .asciidoc file extension. But since they are just text files and since Asciidoctor will try to render any text file you feed it, I choose to use .txt so people can easily edit the files in Notepad.
+
+
+==== Additional Info
+
+* link:http://asciidoctor.org/docs/what-is-asciidoc/[What is AsciiDoc?]
+* link:http://asciidoctor.org/docs/#get-started-with-asciidoctor[Get Started with Asciidoctor]
